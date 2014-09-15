@@ -1,0 +1,557 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: dungeon\n"
+"POT-Creation-Date: 2014-09-15 01:33+0400\n"
+"PO-Revision-Date: 2014-09-15 09:56+0400\n"
+"Last-Translator: Danila Sentyabov <info@dsent.ru>\n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.9\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ../../..\n"
+
+#: ../../../dungeon.py:72
+msgid "Nameless"
+msgstr "The Nameless"
+
+#: ../../../dungeon.py:310
+msgid "You're standing in some nondescript room."
+msgstr ""
+"You're standing in some nondescript room without any features.\n"
+"There are no doors. No windows. Nothing to do at all."
+
+#: ../../../dungeon.py:320
+msgid "How did you do that, cheater?"
+msgstr "How did you do that, you cheater?!"
+
+#: ../../../dungeon.py:360
+msgid "(?P<scene>exit|quit)(\\s+game)?"
+msgstr ""
+"# Debugged\n"
+"(?:i)?\n"
+"(?:\\s*\\bwill|(?<=i)'ll)?\n"
+"(?:\\s*\\bhave|(?<=i)'ve)?\n"
+"(?:\\s*\\b(?:exit|quit))\n"
+"(?:\\s*\\b(?:the\\s+)?game)?\n"
+"[.!]?"
+
+#: ../../../dungeon.py:376
+msgid "Goodbye!"
+msgstr "Come again soon!"
+
+#: ../../../dungeon.py:387
+msgid "I don't understand that."
+msgstr "I can't understand a word. Let's assume you lose this game."
+
+#: ../../../dungeon.py:396
+msgid "Very Small Dungeon"
+msgstr "The Kingdom of Very Small and Immensely Boring Dungeon"
+
+#: ../../../dungeon.py:532
+msgid "Welcome, player {} to the map {}!"
+msgstr ""
+"Welcome, noble traveller {}!\n"
+"The fate brought you to the sacred lands of {}!"
+
+#: ../../../dungeon.py:622 ../../../gold_seekers.py:478
+msgid "Tell me your name: "
+msgstr "How do I call you, fearless adventurer? "
+
+#: ../../../dungeon.py:637 ../../../gold_seekers.py:468
+#: ../../../gold_seekers.py:483
+msgid "> "
+msgstr "What do you do? "
+
+#: ../../../dungeon.py:641
+msgid "Press Enter to exit."
+msgstr "Press Enter to exit."
+
+#: ../../../gold_seekers.py:20
+msgid "You haven't really thought that was an option, have you?"
+msgstr "You haven't really thought that was an option, have you?"
+
+#: ../../../gold_seekers.py:21
+msgid "That would be stupid, don't you think?"
+msgstr "That would be stupid, don't you think?"
+
+#: ../../../gold_seekers.py:22
+msgid "No way. Just no freaking way."
+msgstr "No way. Just no freaking way."
+
+#: ../../../gold_seekers.py:23
+msgid ""
+"The thought of doing that suddenly gave you chills. No, you won't do that."
+msgstr ""
+"The thought of doing that suddenly gave you chills. No, you won't do that."
+
+#: ../../../gold_seekers.py:24
+msgid "That's simply not possible."
+msgstr "That's simply not possible."
+
+#: ../../../gold_seekers.py:25
+msgid "It's no use doing that. You should have tried something else."
+msgstr "It's no use doing that. You should have tried something else."
+
+#: ../../../gold_seekers.py:29
+msgid "enthusiastic"
+msgstr "enthusiastic"
+
+#: ../../../gold_seekers.py:30
+msgid "excited"
+msgstr "excited"
+
+#: ../../../gold_seekers.py:31
+msgid "active"
+msgstr "active"
+
+#: ../../../gold_seekers.py:32
+msgid "calm"
+msgstr "calm"
+
+#: ../../../gold_seekers.py:33
+msgid "bored"
+msgstr "bored"
+
+#: ../../../gold_seekers.py:34
+msgid "extremely bored"
+msgstr "extremely bored"
+
+#: ../../../gold_seekers.py:35
+msgid "fed up with your life"
+msgstr "fed up with your life"
+
+#: ../../../gold_seekers.py:50
+msgid "You were bored to death."
+msgstr ""
+"That's it. Your life is just meaningless!\n"
+"You can't stand the thought of aimlessly roaming these damp dungeons for "
+"another second.\n"
+"The existential anguish fills up your soul and your heart gives up.\n"
+"Your body goes limp as you fall on the floor.\n"
+"You die from boredom. Good job, you!"
+
+#: ../../../gold_seekers.py:53
+msgid "Not advancing is boring. You're now {}."
+msgstr ""
+" /Not getting anywhere isn't good for health!\n"
+" /You're now {}"
+
+#: ../../../gold_seekers.py:79
+msgid "That was refreshing. You're now {}."
+msgstr ""
+" /That was a refreshing experience!\n"
+" /You're now {}"
+
+#: ../../../gold_seekers.py:96
+msgid "You're at the entrance."
+msgstr ""
+"You're standing at the entrance of the dungeon.\n"
+"The entrance is lit dimly by the couple of torches on the walls.\n"
+"There is a door right in front of you."
+
+#: ../../../gold_seekers.py:103
+msgid "You're still at the entrance."
+msgstr ""
+"You're still standing at the entrance of the dungeon.\n"
+"There is a door right in front of you. It's cold out here, you know."
+
+#: ../../../gold_seekers.py:116
+msgid "(?P<entrance>open door|go through)"
+msgstr ""
+"# Debugged\n"
+"(?:i)?\n"
+"(?:\\s*\\bwill|(?<=i)'ll)?\n"
+"(?:\\s*\\bhave|(?<=i)'ve)?\n"
+"(\\s*\\b\n"
+"  (?:open(?:ed)?|go(?:ne)?|went)?\n"
+"  (?:\\s*\\bforward)?\n"
+")?\n"
+"(?:\\s*\\bthrough)?\n"
+"(?:\\s*\\b(?:the|that|this|front))?\n"
+"# If <action> group matched, then door is optional\n"
+"\\s*(?(1)(?:\\bdoor)?|\\bdoor)\n"
+"[.!]?"
+
+#: ../../../gold_seekers.py:129
+msgid "The door opens. You leap into the doorway!"
+msgstr ""
+"The door opens. Excitedly, you leap into the doorway, eager for adventures!\n"
+"A door closed behind you with a sinister thud. There is no way back."
+
+#: ../../../gold_seekers.py:143
+msgid "You're in a dark room. There are three doors: left, right and center."
+msgstr ""
+"You're in a dungeon. The room is pretty dark.\n"
+"You see three doors before your eyes. The one to your left has claw marks on "
+"it. Really large ones.\n"
+"And a few large bumps clearly made by something from the other side.\n"
+"The one to your right is covered by ominous ornaments\n"
+"that make your head spin if you look at them for a couple of seconds.\n"
+"The one at the center lacks any features except that it is very massive and "
+"possibly fireproof."
+
+#: ../../../gold_seekers.py:150
+msgid "You're still in the dark room with three doors."
+msgstr ""
+"You're still standing in a dark room with three doors.\n"
+"To the left — claw-marked one, plain at the center and the one with strange "
+"ornaments to the right."
+
+#: ../../../gold_seekers.py:163
+msgid "(?P<first>left|first)(\\s+door)?"
+msgstr ""
+"# Debugged\n"
+"(?:i)?\n"
+"(?:\\s*\\bwill|(?<=i)'ll)?\n"
+"(?:\\s*\\bhave|(?<=i)'ve)?\n"
+"(?:\\s*\\b\n"
+"  (?:open(?:ed)?|go(?:ne)?|went|select(?:ed)?|turn(?:ed)?|taken?|took)?\n"
+")?\n"
+"(?:\\s*\\b(?:to|through)?)?\n"
+"(?:\\s*\\bthe)?\n"
+"(?:\\s*\\b\n"
+"  (?:left|first|1(?:-?st)?)\n"
+")\n"
+"(?:\\s*\\b(?:side|door|one)?)?\n"
+"[.!]?"
+
+#: ../../../gold_seekers.py:164
+msgid "(?P<first>right|second)(\\s+door)?"
+msgstr ""
+"# Debugged\n"
+"(?:i)?\n"
+"(?:\\s*\\bwill|(?<=i)'ll)?\n"
+"(?:\\s*\\bhave|(?<=i)'ve)?\n"
+"(?:\\s*\\b\n"
+"  (?:open(?:ed)?|go(?:ne)?|went|select(?:ed)?|turn(?:ed)?|taken?|took)?\n"
+")?\n"
+"(?:\\s*\\b(?:to|through)?)?\n"
+"(?:\\s*\\bthe)?\n"
+"(?:\\s*\\b\n"
+"  (?:right|second|2(?:-?nd)?)\n"
+")\n"
+"(?:\\s*\\b(?:side|door|one)?)?\n"
+"[.!]?"
+
+#: ../../../gold_seekers.py:165
+msgid "(?P<first>center|central|third)(\\s+door)?"
+msgstr ""
+"# Debugged\n"
+"(?:i)?\n"
+"(?:\\s*\\bwill|(?<=i)'ll)?\n"
+"(?:\\s*\\bhave|(?<=i)'ve)?\n"
+"(?:\\s*\\b\n"
+"  (?:open(?:ed)?|go(?:ne)?|went|select(?:ed)?|turn(?:ed)?|taken?|took)?\n"
+")?\n"
+"(?:\\s*\\b(?:to|through)?)?\n"
+"(?:\\s*\\bthe)?\n"
+"(?:\\s*\\b\n"
+"  (?:center|central|third|3(?:-?rd)?)\n"
+")\n"
+"(?:\\s*\\b(?:side|door|one)?)?\n"
+"[.!]?"
+
+#: ../../../gold_seekers.py:182
+msgid "Excellent choice! Or not."
+msgstr "Excellent choice! Or not."
+
+#: ../../../gold_seekers.py:192
+msgid "Fantastic choice! No, wait, it isn't."
+msgstr "Fantastic choice! No, wait, it isn't."
+
+#: ../../../gold_seekers.py:202
+msgid "You were asking for trouble."
+msgstr "You were asking for trouble."
+
+#: ../../../gold_seekers.py:220
+msgid "Bears sits a few feet away from the door."
+msgstr ""
+"The bear sits a few feet away from the door minding his own business.\n"
+"Maybe it's time to just go through the door.\n"
+"Or move it a little bit more. Or take its honey, that looks delicious!"
+
+#: ../../../gold_seekers.py:222
+msgid "Bears sits in front of a door."
+msgstr ""
+"The bear doesn't look very aggressive, but it sits right in front of the "
+"door.\n"
+"Maybe you should move it somehow. Or just squeeze past it. Or take its honey."
+
+#: ../../../gold_seekers.py:225
+msgid ""
+"There is a fat bear here. He has a pot of honey. There is a door right "
+"before you."
+msgstr ""
+"There is only one door besides the one you came from, right in front of "
+"you.\n"
+"And there is a bear in the room. The bear has a big pot of honey."
+
+#: ../../../gold_seekers.py:228
+msgid "The bear is still here."
+msgstr ""
+"You're still in the same room with a bear and his honey.\n"
+"There is a door right in front of you."
+
+#: ../../../gold_seekers.py:242
+msgid "(?P<bear>take\\s+)?(honey|pot)"
+msgstr ""
+"# Debugged(?:i)?\n"
+"(?:\\s*\\bwill|(?<=i)'ll)?\n"
+"(?:\\s*\\bhave|(?<=i)'ve)?\n"
+"(\\s*\\b\n"
+"  (?:taken?|took|eat(?:en)?|ate|g[eo]t)\n"
+")?\n"
+"(?:\\s*\\b(?:the|that|its|his|(?:the\\s*\\b)?bear's|bear))?\n"
+"# If <action> group matched, then pot is optional\n"
+"(?(1)\n"
+"  (?:\\s*\\b((?:pot\\s+of\\s+)?honey(?:\\s+pot)?|pot))?|\n"
+"  \\s*\\b(?:(?:pot\\s+of\\s+)?honey(?:\\s+pot)?|pot))  # Otherwise "
+"mandatory\n"
+"[.!]?"
+
+#: ../../../gold_seekers.py:243
+msgid "(?P<bear>taunt|scream)(\\s+at)?(\\s+bear)?"
+msgstr ""
+"# Debugged\n"
+"(?:i)?\n"
+"(?:\\s*\\bwill|(?<=i)'ll)?\n"
+"(?:\\s*\\bhave|(?<=i)'ve)?\n"
+"(\\s*\\b\n"
+"  (?:taunt(?:ed)?|scream(?:ed)?|lull(?:ed)?|s[iau]ng)\n"
+")\n"
+"(?:\\s*\\b(?:to|at))?\n"
+"(?:\\s*\\b(?:him|it|(?:(?:the|that|this)\\s*\\b)?(?:bear|animal)))?\n"
+"[.!]?"
+
+#: ../../../gold_seekers.py:244
+msgid "(?P<bear>open door|go through)"
+msgstr ""
+"# Debugged\n"
+"(?:i)?\n"
+"(?:\\s*\\bwill|(?<=i)'ll)?\n"
+"(?:\\s*\\bhave|(?<=i)'ve)?\n"
+"(\\s*\\b\n"
+"  (?:open(?:ed)?|go(?:ne)?|went)?\n"
+"  (?:\\s*\\bforward)?\n"
+")?\n"
+"(?:\\s*\\bthrough)?\n"
+"(?:\\s*\\b(?:the|that|this|front))?\n"
+"# If <action> group matched, then door is optional\n"
+"\\s*(?(1)(?:\\bdoor)?|\\bdoor)\n"
+"[.!]?"
+
+#: ../../../gold_seekers.py:261
+msgid "The bear looks at you then slaps your face off."
+msgstr ""
+"A clever thing to do! The bear looks at you then slaps your face off.\n"
+"You die."
+
+#: ../../../gold_seekers.py:270
+msgid "The bear gets pissed off and chews your leg off."
+msgstr ""
+"Awesome! The bear gets pissed off and chews your leg off.\n"
+"You die."
+
+#: ../../../gold_seekers.py:274
+msgid "The bear moves away from the door."
+msgstr ""
+"Nicely done! The bear has moved from the door looking slightly annoyed.\n"
+"The way seems free now. But is it safe to go through?.."
+
+#: ../../../gold_seekers.py:284
+msgid "The bear didn't even look at you as you passed it."
+msgstr "That was smooth! The bear didn't even look at you as you passed it."
+
+#: ../../../gold_seekers.py:289
+msgid "The bear eats your belly."
+msgstr ""
+"Good! The bear have taken a good bite of your belly\n"
+"as you tried to squeeze past it to the door.\n"
+"You've bled to death quickly."
+
+#: ../../../gold_seekers.py:297
+msgid "You see Cthulhu. You can try to flee or eat your head."
+msgstr ""
+"Here you see the great evil Cthulhu.\n"
+"He, it, whatever stares at you and you go insane.\n"
+"You may try to flee for your life or accept your fate and eat your head."
+
+#: ../../../gold_seekers.py:313
+msgid "(?P<cthulhu>flee)"
+msgstr ""
+"# Debugged\n"
+"(?:i)?\n"
+"(?:\\s*\\bwill|(?<=i)'ll)?\n"
+"(?:\\s*\\bhave|(?<=i)'ve)?\n"
+"(\\s*\\b\n"
+"  (?:fle(?:e|d)|r[ua]n|go(?:ne)?|went|escaped?)\n"
+")\n"
+"(?:\\s*\\baway)?\n"
+"(?:\\s*\\bfrom)?\n"
+"(?:\\s*\\bout(?:\\s+of)?)?\n"
+"(?:\\s*\\b(?:him|there|it|(?:the\\s+)?room|cthulhu))?\n"
+"[.!]?"
+
+#: ../../../gold_seekers.py:314
+msgid "(?P<cthulhu>(?:eat)?(?:\\s*\\bmy)?(?:\\s*\\bhead)?(?<!^))"
+msgstr ""
+"# Debugged\n"
+"(?:i)?\n"
+"(?:\\s*\\bwill|(?<=i)'ll)?\n"
+"(?:\\s*\\bhave|(?<=i)'ve)?\n"
+"(\\s*\\b\n"
+"  (?:eat(?:en)?|ate|chew(?:ed)?|swallow(?:ed)?)\n"
+")?\n"
+"(?:\\s*\\bon)?\n"
+"(?:\\s*\\bmy)?\n"
+"(?:\\s*\\bown)?\n"
+"# If <eat> group matched, then head is optional\n"
+"(?(1)(?:\\s*\\bhead)?|\\s*\\bhead)\n"
+"(?(1)|\\s*\\b(?:eaten|chewed|swallowed))?\n"
+"[.!]?"
+
+#: ../../../gold_seekers.py:315
+msgid "(?P<cthulhu>.*)"
+msgstr ""
+"# Debugged\n"
+".*"
+
+#: ../../../gold_seekers.py:332
+msgid "Cthulhu didn't follow you. You got away."
+msgstr ""
+"The mighty Cthulhu have all the time in the world and doesn't chase petty "
+"worms like you.\n"
+"You've got away for now. Your insanity receded slowly.\n"
+"He will see you rot eventually though — just a moment later in his eyes."
+
+#: ../../../gold_seekers.py:342
+msgid "You smiled as you ate your head. That was yummy!"
+msgstr "You smiled as you devoured your head. That was yummy!"
+
+#: ../../../gold_seekers.py:350
+msgid "You didn't feel like doing it and ate your head instead. It was yummy!"
+msgstr ""
+"You didn't feel like doing it and devoured your head instead. It was yummy!"
+
+#: ../../../gold_seekers.py:358
+msgid "This room is full of gold. You should take some."
+msgstr "This room is full of gold. You should take some."
+
+#: ../../../gold_seekers.py:373
+msgid "(?P<amount>(?:\\\\d+[.,]?\\\\d*|none|nothing|zero))"
+msgstr ""
+"# Debugged\n"
+"(?:i)?\n"
+"(?:\\s*\\bwill|(?<=i)'ll)?\n"
+"(?:\\s*\\bhave|(?<=i)'ve)?\n"
+"(?:\\s*\\b\n"
+"  (?:taken?|g[eo]t|st(?:eal|olen?)|snatch(?:ed)?)\n"
+")?\n"
+"(?:\\s*\\b\n"
+"  (?P<amount>\n"
+"    (?:\\d+[.,]?\\d*|none|nothing|zero)\n"
+"  )\n"
+")\n"
+"(?:\\s*\\bgold)?\n"
+"(?:\\s*\\b(?:coins?|items?))?\n"
+"[.!]?"
+
+#: ../../../gold_seekers.py:387
+msgid "none"
+msgstr "none"
+
+#: ../../../gold_seekers.py:387
+msgid "nothing"
+msgstr "nothing"
+
+#: ../../../gold_seekers.py:387
+msgid "zero"
+msgstr "zero"
+
+#: ../../../gold_seekers.py:393
+msgid "Nice, you're not greedy!"
+msgstr ""
+"Nice, you're not greedy! You go through the door with your bounty.\n"
+"You've just won the game!"
+
+#: ../../../gold_seekers.py:395
+msgid "You're greedy bastard!"
+msgstr ""
+"You're greedy bastard! The God of Greediness comes and eats your greedy ass "
+"off."
+
+#: ../../../gold_seekers.py:404
+msgid "You can't even enter a number? You die of dumbness."
+msgstr "You couldn't figure out how to enter a number? You die of dumbness."
+
+#: ../../../gold_seekers.py:416
+msgid "The room is filled with lava."
+msgstr ""
+"The room has no floor and is filled with molten lava down there.\n"
+"You balance on your toes at the threshold for a moment and then fall."
+
+#: ../../../gold_seekers.py:439
+msgid "You fall to the bottom and die."
+msgstr ""
+"If you thought that could save you, it didn't work. You fall to the bottom.\n"
+"You tried to scream for a little bit. It isn't a trivial task with your "
+"vocal cords burned.\n"
+"It got even harder when your lungs collapsed.\n"
+"It stopped worrying you in a few seconds though.\n"
+"To put it into perspective, that was a pretty nice death. Almost as good as "
+"it gets in this game.\n"
+"Try find the Hall of Cthulhu next time for the sake of comparison."
+
+#: ../../../gold_seekers.py:444
+msgid "The Underground Realm of the Dread Lord Cthulhu"
+msgstr "The Underground Realm of the Dread Lord Cthulhu"
+
+#~ msgid ""
+#~ "(?P<cthulhu>(?P<pre>(?P<eat>eat)?(\\s+my)?(\\s+own)?)?(?(eat)(\\s+head)?|"
+#~ "(?(pre)\\s+|)head))"
+#~ msgstr ""
+#~ "(?P<pre>\n"
+#~ "((i|i'(ll|ve)|(i\\s+)?(will|have))\\s+)?\n"
+#~ "(?P<eat>eat(en)?|ate|chew(ed)?|swallow(ed)?)?\n"
+#~ "(\\s+my)?(\\s+own)?)?\n"
+#~ "# if no action is specified, head is required, otherwise optional\n"
+#~ "(?(eat)(\\s+head)?|(?(pre)\\s+|)head)\n"
+#~ "[.!]?"
+
+#~ msgid ".*"
+#~ msgstr ".*"
+
+#~ msgid ""
+#~ "((i|i'(ll|ve)|(i\\s+)?(will|have))\\s+)?\n"
+#~ "                    (fle[ed]|r[ua]n|go(ne)?|went|escap(ed)?)\n"
+#~ "                    (\\s+(away|from)(\\s+(there|cthulhu))?)?\n"
+#~ "                    [.!]?"
+#~ msgstr ""
+#~ "((i|i'(ll|ve)|(i\\s+)?(will|have))\\s+)?\n"
+#~ "(fle[ed]|r[ua]n|go(ne)?|went|escap(ed)?)\n"
+#~ "(\\s+(away|from)(\\s+(there|cthulhu))?)?\n"
+#~ "[.!]?"
+
+#~ msgid "The Kingdom of Very Small and Immensely Boring Dungeon"
+#~ msgstr "The Kingdom of Very Small and Immensely Boring Dungeon"
+
+#~ msgid "Just a room still"
+#~ msgstr ""
+#~ "You're still in that nondescript room, got nothing to do.\n"
+#~ "If you listen carefully, you can hear yourself starving."
+
+#~ msgid "Just a room"
+#~ msgstr ""
+#~ "You're standing in some nondescript room without any features.\n"
+#~ "There are no doors. No windows. Nothing to do at all."
+
+#~ msgid "Unrecognized action"
+#~ msgstr "The action is not recognized. The game is terminated."
+
+#~ msgid "Exit action"
+#~ msgstr "Come again soon!"
