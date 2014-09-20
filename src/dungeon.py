@@ -5,14 +5,15 @@ Provides an engine for simple text adventure games.
 """
 
 import locale
+import os
 import types
 import re
 import gettext
 
 import dsent.lists
+import sys
 
-from src import settings
-
+import settings
 
 __author__ = 'dsent'
 __version__ = '2.0'
@@ -31,7 +32,15 @@ def lang_init():
     _locale, _encoding = locale.getdefaultlocale()  # Default system values
     if settings.SETTINGS['locale'] is not None:
         _locale = settings.SETTINGS['locale']
-    lang = gettext.translation('dungeon', 'l10n/', [_locale])
+
+    if hasattr(sys, 'frozen'):  # For cx_Freeze executable
+        path = sys.executable
+    else:
+        path = sys.argv[0]
+
+    path = os.path.dirname(path)
+
+    lang = gettext.translation('dungeon', path + '/l10n/', [_locale])
     return lang.gettext
 
 _ = lang_init()
