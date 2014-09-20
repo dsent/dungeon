@@ -1,9 +1,6 @@
 """This is a sample game built using a dungeon engine"""
-
-import re
-
-from src.dungeon import *
-
+import random
+from dungeon import *
 
 __author__ = 'dsent'
 
